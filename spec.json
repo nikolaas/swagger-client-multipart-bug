@@ -1,0 +1,36 @@
+{
+    "openapi": "3.0.2",
+    "info": {
+        "title": "test",
+        "version": "1.0.0"
+    },
+    "paths": {
+        "/foo": {
+            "post": {
+                "operationId": "foo",
+                "requestBody": {
+                    "content": {
+                        "multipart/form-data": {
+                            "schema": {
+                                "type": "object",
+                                "properties": {
+                                    "a": {
+                                        "type": "number"
+                                    },
+                                    "b": {
+                                        "type": "number"
+                                    }
+                                }
+                            }
+                        }
+                    }
+                },
+                "responses": {
+                    "200": {
+                        "description": "bar"
+                    }
+                }
+            }
+        }
+    }
+}
