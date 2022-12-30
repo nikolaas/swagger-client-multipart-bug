@@ -9,6 +9,6 @@
   "author": "Nikolay Stupak",
   "license": "ISC",
   "dependencies": {
-    "swagger-client": "^3.10.0"
+    "swagger-client": "^3.18.5"
   }
 }
